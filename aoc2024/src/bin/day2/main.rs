@@ -5,7 +5,7 @@ pub mod day2;
 const DAY: u8 = 2;
 
 fn main() {
-    println!("Day 2: Report Safety");
+    println!("Day 2: Red-Nosed Reports");
     let test = check_if_test();
     if test {
         println!("Using test input");
