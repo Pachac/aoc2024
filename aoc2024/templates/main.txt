@@ -1,0 +1,14 @@
+use aoc2024::{check_if_test, input_path};
+
+pub mod day{{day}};
+
+const DAY: u8 = {{day}};
+
+fn main() {
+    println!("Day {{day}}: Day name");
+    let test = check_if_test();
+    if test {
+        println!("Using test input");
+    }
+    day{{day}}::run(input_path(DAY, test));
+}
